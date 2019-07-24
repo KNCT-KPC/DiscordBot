@@ -1,0 +1,2 @@
+# DiscordBot
+プロ研Discordサーバ用DiscordBot開発プロジェクト
