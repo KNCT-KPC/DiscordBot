@@ -28,7 +28,7 @@ async def on_message(message):
         sys.exit()
 
     elif message.content.startswith(prefix+"help"):
-        await message.channel.send("円とチョコバナナ[CB]を変換するBotです。\n"+prefix+"help:このヘルプを表示します。\n"+prefix+"prefix:現在設定されているprefixを表示します。\n"+prefix+"rate:現在のレートを表示します。\n"+prefix+"cb <数字>:円をチョコバナナ(CB)へ換算します。\n"+prefix+"yen:チョコバナナ(CB)を円へ換算します。\n"+prefix+"shutdown:Botをシャットダウンします。")
+        await message.channel.send("円とチョコバナナ[CB]を変換するBotです。\n"+prefix+"help:このヘルプを表示します。\n"+prefix+"prefix:現在設定されているprefixを表示します。\n"+prefix+"rate:現在のレートを表示します。\n"+prefix+"cb <数字>:円をチョコバナナ(CB)へ換算します。\n"+prefix+"yen <数字>:チョコバナナ(CB)を円へ換算します。\n"+prefix+"shutdown:Botをシャットダウンします。")
     
     elif message.content.startswith(prefix+"prefix"):
         await message.channel.send("現在のprefixは "+prefix+" です。")
